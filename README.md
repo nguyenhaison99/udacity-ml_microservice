@@ -19,6 +19,21 @@ Your project goal is to operationalize this working, machine learning microservi
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
+---
+
+## File Navigator
+
+* `app.py`: a Python flask app that serves out predictions (inference) about housing prices through API calls.
+* `Dockerfile`: a set of instructions for docker to automatically build an image.
+* `make_prediction.sh`: a script file that sends input data to a trained machine learning model and gets the predicted value for the house price.
+* `Makefile`: a handy way to run commands in the environment
+* `requirements.txt`: list of all dependencies that are required to run the project.
+* `run_docker.sh`: a script file to build an image from Dockerfile and run a docker container.
+* `run_kubernetes:sh`: a script file to run a Kubernetes pod that has a container running inside, the container will run the python application
+* `upload_docker.sh`: a script file to tag a local docker image and push it to docker hub.
+
+---
+
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
