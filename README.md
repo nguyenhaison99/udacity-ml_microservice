@@ -42,6 +42,10 @@ source .devops/bin/activate
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
+### Make Prediction
+
+* Having the application running in container, in a separate terminal run `./make_prediction.sh`
+
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
